@@ -3,7 +3,7 @@
 
 ## Overview
 
-**ChatGPT: AI Programming Assistant** is a powerful VS Code extension that leverages OpenAI's models to assist developers in generating, optimizing, debugging, and explaining code. It offers real-time AI pair programming, interactive tutorials, and a customizable prompt cheat sheet featuring 500 examples across various programming languages. With its intuitive features, this extension provides a seamless coding experience, enhancing productivity and fostering learning for developers of all skill levels.
+**ChatGPT: AI Programming Assistant** is a powerful VS Code extension that leverages OpenAI's models to assist developers in generating, optimizing, debugging, and explaining code. It offers interactive tutorials, and a customizable prompt cheat sheet featuring 500 examples across various programming languages. With its intuitive features, this extension provides a seamless coding experience, enhancing productivity and fostering learning for developers of all skill levels.
 
 ## Features
 
@@ -13,7 +13,6 @@
 - **Debug code** with AI assistance.
 - **Explain differences** between code snippets.
 - **Chat with GPT** for direct interaction.
-- **AI Pair Programming**: Provides real-time suggestions and answers based on the current code or task.
 - **Interactive Learning**: Handles requests for step-by-step tutorials based on user input.
 - **Comprehensive Prompt Cheat Sheet**: Offers 500 prompts for various programming languages, organized for easy access and quick suggestions as users type.
 
@@ -53,7 +52,6 @@ The following commands have been assigned shortcut keys for better productivity:
 - **Debug Code**: `Ctrl+Alt+D`
 - **Explain Code Differences**: `Ctrl+Alt+E`
 - **Chat with GPT**: `Ctrl+Alt+C`
-- **AI Pair Programming**: `Ctrl+Alt+P`
 - **Interactive Learning**: `Ctrl+Alt+L`
 
 You can customize these key bindings in the `keybindings.json` file in VS Code.
