@@ -3,7 +3,7 @@
 
 ## Overview
 
-**ChatGPT: AI Programming Assistant** is a powerful VS Code extension that leverages OpenAI's models to assist developers in generating, optimizing, debugging, and explaining code. It offers interactive tutorials, and a customizable prompt cheat sheet featuring 500 examples across various programming languages. With its intuitive features, this extension provides a seamless coding experience, enhancing productivity and fostering learning for developers of all skill levels.
+**ChatGPT: AI Programming Assistant** is a robust VS Code extension powered by OpenAI’s models, designed to help developers with AI-powered code generation, optimization, debugging, and unit test creation. It provides real-time interactive tutorials and prompt-based assistance, featuring a comprehensive cheat sheet with 500 prompts for various programming languages
 
 ## Features
 
@@ -67,6 +67,19 @@ You can customize these key bindings in the `keybindings.json` file in VS Code.
 - **Interactive Learning Mode (Ctrl+Alt+L)**: Provides tutorials on various coding topics based on user input.
 
 
+## Graphical Help
+
+### 1. **Generate Code**
+Generate code using the GPT Code Assistant by pressing `Ctrl+Alt+G`.
+
+![Generate Code Command](https://raw.githubusercontent.com/tirotir-ir/chatgpt-ai-programming-assistant/main/ctrl-alt-g.gif)
+
+### 2. **Chat with GPT**
+Chat with GPT using the command `Ctrl+Alt+C` for real-time assistance.
+
+![Generate Code Command](https://raw.githubusercontent.com/tirotir-ir/chatgpt-ai-programming-assistant/main/ctrl-alt-c.gif)
+
+
 ## Usage
 
 1. Select the code snippet you want to work with.
@@ -109,4 +122,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - OpenAI for providing the API.
 - Visual Studio Code for an excellent code editor.
 
-[GitHub Repository](https://github.com/tirotir-ir/chatgpt-ai-programming-assistant.git)
+GitHub Repository
+
+## Welcome Message
+
+Thank you for using ChatGPT: AI Programming Assistant! We hope this tool enhances your coding experience and boosts your productivity. Happy coding!
