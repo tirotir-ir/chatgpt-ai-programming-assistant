@@ -3,18 +3,28 @@
 
 ## Overview
 
-**ChatGPT: AI Programming Assistant** is a robust VS Code extension powered by OpenAI’s models, designed to help developers with AI-powered code generation, optimization, debugging, and unit test creation. It provides real-time interactive tutorials and prompt-based assistance, featuring a comprehensive cheat sheet with 500 prompts for various programming languages
+**ChatGPT: AI Programming Assistant** is a powerful VS Code extension leveraging OpenAI’s models for AI-driven code generation, optimization, debugging, unit test creation, and interactive tutorials, complete with a cheat sheet of 500 programming prompts.
 
-## Features
+## Key Bindings and Commands
 
-- **Generate code** based on user input.
-- **Write unit tests** for existing code.
-- **Optimize code snippets**.
-- **Debug code** with AI assistance.
-- **Explain differences** between code snippets.
-- **Chat with GPT** for direct interaction.
-- **Interactive Learning**: Handles requests for step-by-step tutorials based on user input.
-- **Comprehensive Prompt Cheat Sheet**: Offers 500 prompts for various programming languages, organized for easy access and quick suggestions as users type.
+The following commands have been assigned shortcut keys for better productivity:
+
+- **Generate Code**: `Ctrl+Alt+G`
+  - Generates code based on the selected text.
+- **Generate Unit Test**: `Ctrl+Alt+U`
+  - Generates a unit test for the selected code.
+- **Optimize Code**: `Ctrl+Alt+O`
+  - Optimizes the selected code.
+- **Debug Code with AI**: `Ctrl+Alt+D`
+  - Debugs the selected code with AI assistance.
+- **Explain Code Differences**: `Ctrl+Alt+E`
+  - Explains the difference between two code snippets.
+- **Chat with GPT**: `Ctrl+Alt+C`
+  - Chat directly with GPT for interactive Q&A or coding help.
+- **Interactive Learning Mode**: `Ctrl+Alt+L`
+  - Provides tutorials on various coding topics based on user input.
+
+You can customize these key bindings in the `keybindings.json` file in VS Code.
 
 ## Prompt Areas
 
@@ -41,31 +51,6 @@ To use the OpenAI features, you need to set your OpenAI API key in the extension
 "gptCodeAssistant.model": "gpt-4" // Choose the GPT model (e.g., gpt-3.5-turbo,gpt-3.5-turbo-16k, gpt-4, gpt-4-32k)
 ```
 These settings allow you to customize the GPT model used and the maximum number of tokens for each response.
-
-## Key Bindings
-
-The following commands have been assigned shortcut keys for better productivity:
-
-- **Generate Code**: `Ctrl+Alt+G`
-- **Generate Unit Test**: `Ctrl+Alt+U`
-- **Optimize Code**: `Ctrl+Alt+O`
-- **Debug Code**: `Ctrl+Alt+D`
-- **Explain Code Differences**: `Ctrl+Alt+E`
-- **Chat with GPT**: `Ctrl+Alt+C`
-- **Interactive Learning**: `Ctrl+Alt+L`
-
-You can customize these key bindings in the `keybindings.json` file in VS Code.
-
-## Commands
-
-- **Generate Code (Ctrl+Alt+G)**: Generates code based on the selected text.
-- **Generate Unit Test (Ctrl+Alt+U)**: Generates a unit test for the selected code.
-- **Optimize Code (Ctrl+Alt+O)**: Optimizes the selected code.
-- **Debug Code with AI (Ctrl+Alt+D)**: Debugs the selected code with AI assistance.
-- **Explain Code Differences (Ctrl+Alt+E)**: Explains the difference between two code snippets.
-- **Chat with GPT (Ctrl+Alt+C)**: Chat directly with GPT for interactive Q&A or coding help.
-- **Interactive Learning Mode (Ctrl+Alt+L)**: Provides tutorials on various coding topics based on user input.
-
 
 ## Graphical Help
 
@@ -121,8 +106,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - OpenAI for providing the API.
 - Visual Studio Code for an excellent code editor.
-
-GitHub Repository
 
 ## Welcome Message
 
